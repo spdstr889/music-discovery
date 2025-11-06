@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music Discovery — Lab 4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./styles/styles.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Music Discovery</h1>
+    <p id="desc">Type an artist. The app finds a top tag and recommends tracks from that vibe.</p>
+  </header>
+
+  <main>
+    <form id="searchForm" aria-describedby="desc">
+      <label for="artist">Artist</label>
+      <input id="artist" name="artist" type="text" placeholder="e.g., Taylor Swift" required>
+      <button type="submit">Go</button>
+    </form>
+
+    <p id="status" class="sr-only" aria-live="polite"></p>
+
+    <section id="infoBox" class="card">
+      <h2>Tag</h2>
+      <p id="tag">None yet</p>
+    </section>
+
+    <section id="tracksBox" class="card">
+      <h2>Sample Tracks</h2>
+      <ul id="tracks"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <small>APIs: MusicBrainz for tags, iTunes Search for previews. Educational use.</small>
+  </footer>
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Halifax",
+			"country": {
+				"code": "CA",
+				"name": "Canada"
+			},
+			"subdivision": {
+				"code": "NS",
+				"name": "Nova Scotia"
+			},
+			"timezone": "America/Halifax",
+			"latitude": 44.6814,
+			"longitude": -63.6571,
+			"postalCode": "B3M"
+		},
+		"timestamp": 1762464165592
+	}
+}

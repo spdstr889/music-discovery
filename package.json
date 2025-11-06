@@ -1,0 +1,13 @@
+{
+  "name": "music-discovery",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx netlify dev",
+    "build": "echo no-build",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^27.1.0"
+  }
+}
